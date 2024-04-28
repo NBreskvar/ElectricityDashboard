@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    Izberi dan za poizvedbo količine proizvedene/porabljene električne energije
+    <input type="date" id="dateInput" value="2023-12-20" />
+    <button id="submitButton" onclick="osveziGraf()">Submit</button>
+
+    <div>
+      <canvas id="skupenChart" height="70px"></canvas>
+      <canvas id="chart15" height="70px"></canvas>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/drawGraph.js"></script>
+</html>
